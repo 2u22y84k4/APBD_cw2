@@ -42,9 +42,9 @@ Kontenery na płyny pozwalają na przewożenie ładunku niebezpiecznego (np. pal
 
     
 ## Kontenery na gaz (G)
-Kontenery przechowujące gaz przechowują dodatkową informacje na temat ciśnienia (w atmosferach).
+Kontenery przechowujące gaz przechowują dodatkową informację na temat ciśnienia (w atmosferach).
 
-* W momencie kiedy opróżniamy kontener na gaz - pozostawiamy 5% jego ładunku wewnątrz kontenera. 
+* W momencie, kiedy opróżniamy kontener na gaz - pozostawiamy 5% jego ładunku wewnątrz kontenera. 
 * Powinien zaimplementować interfejs IHazardNotifier. Metoda powinna pozwolić na informowanie o zajściu niebezpiecznego
 zdarzenia wraz z numerem seryjnym danego kontenera.
 * Jeśli masa ładunku przekroczy dopuszczalną ładowność - chcemy zwrócić błąd.
@@ -64,10 +64,10 @@ Kontener chłodniczy zawiera informacje na temat:
 Nasza aplikacja powinna pozwolić na przygotowanie danego kontenerowca do rejsu. O samym kontenerowcu chcielibyśmy
 pamiętać:
 
-* Wszystkie kontenery jakie dany statek transportuje 
-* Maksymalna prędkość jaką kontenerowiec może rozwijać (w węzłach)
+* Wszystkie kontenery, jakie dany statek transportuje 
+* Maksymalna prędkość, jaką kontenerowiec może rozwijać (w węzłach)
 * Maksymalna liczba kontenerów, które mogą być przewożone 
-* Maksymalna waga wszystkich kontenerów jakie mogą być transportowane poprzez statek (w tonach)
+* Maksymalna waga wszystkich kontenerów, jakie mogą być transportowane poprzez statek (w tonach)
 
 Chcemy, aby aplikacja wspierała następujące operacje:
 
@@ -82,5 +82,5 @@ Chcemy, aby aplikacja wspierała następujące operacje:
 * Wypisanie informacji o danym kontenerze 
 * Wypisanie informacji o danym statku i jego ładunku
 
-Następnie w metodzie Main spróbuj wykorzystać przygotowane przez siebie klasy i metody. Sprawdź czy jesteś w stanie
+Następnie w metodzie Main spróbuj wykorzystać przygotowane przez siebie klasy i metody. Sprawdź, czy jesteś w stanie
 wykonać wszystkie opisane w tekście akcje.

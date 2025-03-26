@@ -5,7 +5,7 @@ namespace APBD_cw2;
 
 class Program
 {
-    static void Main(string[] args)
+    static void MainTheory(string[] args)
     {
         LiquidContainer liquidContainerA = new LiquidContainer(true, 100, 5);
         liquidContainerA.LoadTheCargo(40);
